@@ -776,6 +776,7 @@ function Demo() {
 | position | 浮层位置，可选值同[Popover#API 参考·position 参数](/zh-CN/show/popover#API参考) | string | 'bottomLeft' |  |
 | prefix | 前缀内容 | string\|ReactNode |  |  |
 | presets | 日期时间快捷方式 | Array<{start:BaseValueType, end:BaseValueType, text:string}\| function():{start:BaseValueType, end:BaseValueType, text:string}> | [] |  |
+| presetPosition | 日期时间快捷方式面板位置, 可选值'left', 'right', 'top', 'bottom' | string |  'bottom' | **2.18.0** |
 | rangeSeparator | 自定义范围类型输入框的日期分隔符 | string | '~' | **1.31.0** |
 | renderDate | 自定义日期显示内容 | (dayNumber, fullDate) => ReactNode | - | **1.4.0** |
 | renderFullDate | 自定义显示日期格子内容 | (dayNumber, fullDate, dayStatus) => ReactNode | - | **1.4.0** |
